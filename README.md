@@ -2,7 +2,7 @@ Govspeak a markup language derived from [Markdown](http://daringfireball.net/pro
 
 As well as implementing Markdown, it contains additional elements that are usefulf or publishing official information.
 
-govspeak-drupal implements Govspeak for Drupal. 
+[govspeak-drupal](https://github.com/LambethCouncil/govspeak-drupal) implements Govspeak for [Drupal](http://drupal.org/). 
 
 # Usage
 
