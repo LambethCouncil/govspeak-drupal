@@ -50,7 +50,7 @@ creates an example box
 
     @This is a very important message or warning in the form of a heading@
 
-highlights the enclosed text in yellow
+highlights the enclosed
 
     <h3 class="advisory">
         <span>This section is a very important</span>
