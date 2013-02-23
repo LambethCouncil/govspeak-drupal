@@ -135,12 +135,3 @@ Abbreviations can be defined at the end of the document, and any occurrences els
 becomes
 
     <p>Special rules apply if you’re exporting a vehicle outside the <abbr title="European Union">EU</abbr>.</p>
-
-## Devolved content
-
-    :england:content goes here:england:
-    :scotland:content goes here:scotland:
-    :london:content goes here:london:
-    :wales:content goes here:wales:
-    :northern-ireland:content goes here:northern-ireland:
-    :england-wales:content goes here:england-wales:
