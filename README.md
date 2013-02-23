@@ -1,4 +1,4 @@
-Govspeak a markup language derived from [Markdown](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), developed by the [Government Digital Service](digital.cabinetoffice.gov.uk) for use on GOV.UK. 
+Govspeak a markup language derived from [Markdown](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), developed by the [Government Digital Service](digital.cabinetoffice.gov.uk) for use on [GOV.UK](https://www.gov.uk). 
 
 As well as implementing Markdown, it contains additional elements that are usefulf or publishing official information.
 
