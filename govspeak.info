@@ -1,0 +1,11 @@
+name = Govspeak
+description = An extension to markdown with useful things for government websites
+package = "Input filters"
+core = 7.x
+files[] = filter_example.test
+
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "govspeak"
+datestamp = "1359680350"
+stylesheets[all][] = govspeak.css
