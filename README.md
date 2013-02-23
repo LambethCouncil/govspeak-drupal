@@ -21,6 +21,10 @@ creates a callout with an info (i) icon.
     <div class="application-notice info-notice">
       <p>This is an information callout</p>
     </div>
+    
+which looks like
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/information.png"/>
 
 ### Warning callouts
 
