@@ -99,6 +99,10 @@ creates an address box
     <br>Hercules Road
     <br>London SE1 7DU
     <br></p></div></div>
+    
+which looks like this
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/address.png"/>
 
 ## Downloads
 
