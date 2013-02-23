@@ -168,16 +168,6 @@ which looks like
 Note that steps need an extra line break after the final step (ie. two full blank lines) or other markdown directly afterwards won't work. If you have a subhead after - add a line break after this.
 
 ## Abbreviations
-    
-    x[London Mural Preservation Society](http://londonmuralpreservationsociety.com/)x
-
-creates a link with an external-link class, and rel=external
-    
-    <a class="external-link" rel="external" href="http://bbc.co.uk">this is an external link 1</a>
-
-which looks like
-
-<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/external_link.png"/>
 
 Abbreviations can be defined at the end of the document, and any occurrences elswhere in the document will wrapped in an `<abbr>` tag. They are parsed in the order in which they are defined, so `PCSOs` should be defined before `PCSO`, for example.
 
@@ -191,3 +181,12 @@ becomes
     
 ## External links
 
+x[London Mural Preservation Society](http://londonmuralpreservationsociety.com/)x
+
+creates a link with an external-link class, and rel=external
+    
+    <a class="external-link" rel="external" href="http://bbc.co.uk">this is an external link 1</a>
+
+which looks like
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/external_link.png"/>
