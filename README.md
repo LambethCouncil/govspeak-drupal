@@ -185,7 +185,7 @@ x\[London Mural Preservation Society]\(http://londonmuralpreservationsociety.com
 
 creates a link with an external-link class, and rel=external
     
-    <a class="external-link" rel="external" href="http://bbc.co.uk">this is an external link 1</a>
+    <a class="external-link" rel="external" href="http://londonmuralpreservationsociety.com">London Mural Preservation Society</a>
 
 which looks like
 
