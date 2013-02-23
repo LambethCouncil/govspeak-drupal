@@ -6,9 +6,9 @@ Govspeak a markup language derived from [Markdown](http://daringfireball.net/pro
 - Place the govspeak-drupal directory in sites/all/modules directory of your Drupal installation.
 - Enable the module in the admin section of your Drupal install.
 
-# Extensions
+# How to write Govspeak
 
-In addition to the [standard Markdown syntax](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), we have added our own extensions.
+For standard things like headings, tables and links, follow the [standard Markdown syntax](http://daringfireball.net/projects/markdown/syntax "Markdown syntax").
 
 ## Callouts
 
@@ -48,12 +48,12 @@ creates an example box
 
 ### Advisory
 
-    @This is a very important message or warning@
+    @This is a very important message or warning in the form of a heading@
 
 highlights the enclosed text in yellow
 
     <h3 class="advisory">
-        <span>This is a very important message or warning</span>
+        <span>This section is a very important</span>
     </h3>
 
 ### Answer
@@ -62,7 +62,7 @@ highlights the enclosed text in yellow
     The VAT rate is *20%*
     {:/highlight-answer}
 
-creates a large pink highlight box with optional preamble text and giant text denoted with `**`
+creates a  highlight box with optional preamble text and giant text denoted with `**`
 
     <div class="highlight-answer">
     <p>The standard VAT rate is <em>20%</em></p>
