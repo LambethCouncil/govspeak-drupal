@@ -6,9 +6,12 @@ Govspeak a markup language derived from [Markdown](http://daringfireball.net/pro
 - Place the govspeak-drupal directory in sites/all/modules directory of your Drupal installation.
 - Enable the module in the admin section of your Drupal install.
 
+__ The module comes with very basic css styles for demonstration perposes. You will almost certianly want to overwrite them.__
+
 # How to write Govspeak
 
-For standard things like headings, tables and links, follow the [standard Markdown syntax](http://daringfireball.net/projects/markdown/syntax "Markdown syntax").
+For standard things like headings, tables and links, follow the [standard Markdown syntax](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"). Below is a list of the additional extentions that Govspeak provides.
+
 
 ## Callouts
 
