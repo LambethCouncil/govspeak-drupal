@@ -181,7 +181,7 @@ becomes
     
 ## External links
 
-x\[London Mural Preservation Society](http://londonmuralpreservationsociety.com/)x
+x\[London Mural Preservation Society]\(http://londonmuralpreservationsociety.com/)x
 
 creates a link with an external-link class, and rel=external
     
