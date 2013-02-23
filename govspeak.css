@@ -1,9 +1,11 @@
 .advisory {
-    background-color:#ffffaa;
+    background-color:#000;
+    color:#fff;
+    text-transform:uppercase;
 }
 .advisory span {
     display:block;
-    padding:0 1em;
+    padding:0.3em 1em;
 }
 
 .address{
@@ -58,6 +60,24 @@ color: #fff;
 .info-notice {
 background: url(https://assets.digital.cabinet-office.gov.uk/static/icon-information-f78d8c1b10b141b5a9a8c7a40220c4a4.png) no-repeat scroll 98% 1em #d5e8f3;
 }
+
+/* Summary */
+.summary {
+    margin: 0 0 2em 0;
+    padding: 0;
+    color: #0b0c0c;
+}
+
+.summary p {
+    font-family: "nta","GDS-Regular",sans-serif;
+    font-size: 1.4em;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: none;
+    padding:1em 0 1em 0.5em;
+    border-left:solid 10px #eaedef;
+}
+
 
 /* Downloads */
 .form-download{
