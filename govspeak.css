@@ -84,6 +84,17 @@ a[rel="external"]::after, .external-link::after {
     background: url(icons/external-link.png) no-repeat;
 }
 
+/* Example */
+.example {
+    background: #eaedef;
+    margin: 0.75em -1em;
+    padding: 0.5em 1em;
+}
+
+.example strong {
+    display: block;
+    margin-bottom:1em;
+}
 
 /* Steps */
 ol.steps {
@@ -142,4 +153,9 @@ ol.steps > li {
     list-style-type: none;
     margin-left: 0;
     padding: 0.15em 0 0.15em 2.2em;
+}
+
+/* Jargon */
+abbr[title] {
+    cursor: help;
 }
