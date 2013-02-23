@@ -69,6 +69,11 @@ highlights the enclosed
         <span>This section is a very important</span>
     </h3>
 
+which looks like
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/advisory.png"/>
+
+
 ### Answer
 
     {::highlight-answer}
@@ -80,6 +85,11 @@ creates a  highlight box with optional preamble text and giant text denoted with
     <div class="highlight-answer">
     <p>The standard VAT rate is <em>20%</em></p>
     </div>
+
+which looks like
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/answer.png"/>
+
 
 ## Points of Contact
 
