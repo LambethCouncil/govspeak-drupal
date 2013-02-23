@@ -36,6 +36,11 @@ creates a callout with a warning or alert (!) icon
         <p>This is a warning callout</p>
     </div>
 
+which looks like
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/warning.png"/>
+
+
 ### Example callout
 
     $E
@@ -47,6 +52,10 @@ creates an example box
     <div class="example">
     <p><strong>Example:</strong> Open the pod bay doors</p>
     </div>
+
+which looks like
+
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/example.png"/>
 
 ## Highlights
 
