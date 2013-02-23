@@ -1,10 +1,10 @@
-Govspeak a markup language derived from [Markdown](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), developed by the [Government Digital Service](digital.cabinetoffice.gov.uk) for use on [GOV.UK](https://www.gov.uk). 
+Govspeak a markup language derived from [Markdown](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), developed by the [Government Digital Service](digital.cabinetoffice.gov.uk) for use on [GOV.UK](https://www.gov.uk). As well as implementing Markdown, it contains additional elements that are usefulf or publishing official information. [govspeak-drupal](https://github.com/LambethCouncil/govspeak-drupal) implements Govspeak for [Drupal](http://drupal.org/). 
 
-As well as implementing Markdown, it contains additional elements that are usefulf or publishing official information.
+# Installation 
 
-[govspeak-drupal](https://github.com/LambethCouncil/govspeak-drupal) implements Govspeak for [Drupal](http://drupal.org/). 
-
-# Usage
+- Clone this repository, or download the [zipped version](https://github.com/LambethCouncil/govspeak-drupal/archive/master.zip) and unzip it. 
+- Place the govspeak-drupal directory in sites/all/modules directory of your Drupal installation.
+- Enable the module in the admin section of your Drupal install.
 
 # Extensions
 
@@ -29,7 +29,7 @@ creates a callout with an info (i) icon.
 creates a callout with a warning or alert (!) icon
 
     <div class="application-notice help-notice">
-    	<p>This is a warning callout</p>
+        <p>This is a warning callout</p>
     </div>
 
 ### Example callout
@@ -53,7 +53,7 @@ creates an example box
 highlights the enclosed text in yellow
 
     <h3 class="advisory">
-    	<span>This is a very important message or warning</span>
+        <span>This is a very important message or warning</span>
     </h3>
 
 ### Answer
