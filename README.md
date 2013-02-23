@@ -102,7 +102,7 @@ creates an address box
     
 which looks like this
 
-<img src="examples_images/address.png"/>
+<img src="https://raw.github.com/LambethCouncil/govspeak-drupal/master/example_images/address.png"/>
 
 ## Downloads
 
