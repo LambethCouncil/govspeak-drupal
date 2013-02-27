@@ -6,8 +6,8 @@
         $text = render_external_links($text);
         $text = render_steps($text);
         $text = render_basic($text, '<h3 class="advisory"><span>{{CONTENT}}</span></h3>', '@');
-        $text = render_basic($text, '<div class="application-notice help-notice"><p>{{CONTENT}}</p></div>', '%');
-        $text = render_basic($text, '<div class="application-notice info-notice"><p>{{CONTENT}}</p></div>', '^', NULL, false, false);
+        $text = render_basic($text, '<div class="application-notice help-notice"><p>{{CONTENT}}</p></div>', '%', NULL, true, false);
+        $text = render_basic($text, '<div class="application-notice info-notice"><p>{{CONTENT}}</p></div>', '^', NULL, true, false);
         $text = render_basic($text, '<div class="summary"><p>{{CONTENT}}</p></div>', '$!', NULL, true, false);
         $text = render_basic($text, '<div class="example"><p>{{CONTENT}}</p></div>', '$E', NULL, true, false);
         $text = render_basic($text, '<div class="call-to-action"><p>{{CONTENT}}</p></div>', '$CTA', NULL, true, false);
