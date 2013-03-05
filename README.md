@@ -3,8 +3,7 @@ Govspeak a markup language derived from [Markdown](http://daringfireball.net/pro
 # Installation 
 
 - Clone this repository, or download the [zipped version](https://github.com/LambethCouncil/govspeak-drupal/archive/master.zip) and unzip it. 
-- Place the govspeak-drupal directory in sites/all/modules directory of your Drupal installation.
-
+- Place the govspeak-drupal directory in sites/all/modules directory of your Drupal installation.  
 _The folder should be renamed from 'govspeak-drupal' to 'govspeak'_  
 _At Lambeth, we have put it in sites/all/modules/custom, so in our case, govspeak.module is here: sites/all/modules/custom/govspeak/govspeak.module_
 - Enable the module in the admin section of your Drupal install.
