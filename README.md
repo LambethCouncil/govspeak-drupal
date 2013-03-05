@@ -8,6 +8,8 @@ The folder should be renamed from 'govspeak-drupal' to 'govspeak'
 At Lambeth, we have put it in sites/all/modules/custom, so in our case, govspeak.module is here: sites/all/modules/custom/govspeak/govspeak.module
 - Enable the module in the admin section of your Drupal install.
 
+**Note:** _This module was written by taking the [markdown module for Drupal](http://drupal.org/project/markdown) and extending it. As a result, for now anyway, you can't use the markdown module alongside this govspeak module._
+
 **Note:** _The module comes with very basic css styles for demonstration purposes. You will almost certainly want to overwrite them._
 
 # Usage
