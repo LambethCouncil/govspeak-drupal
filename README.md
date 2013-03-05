@@ -1,4 +1,4 @@
-Govspeak a markup language derived from [Markdown](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), developed by the [Government Digital Service](http://digital.cabinetoffice.gov.uk) for use on [GOV.UK](https://www.gov.uk). As well as implementing Markdown, it contains additional elements that are usefulf or publishing official information. [govspeak-drupal](https://github.com/LambethCouncil/govspeak-drupal) implements Govspeak for [Drupal](http://drupal.org/). The implementation of Markdown is [John Gruber's php Markdown](http://michelf.ca/projects/php-markdown/).
+Govspeak a markup language derived from [Markdown](http://daringfireball.net/projects/markdown/syntax "Markdown syntax"), developed by the [Government Digital Service](http://digital.cabinetoffice.gov.uk) for use on [GOV.UK](https://www.gov.uk). As well as implementing Markdown, it contains additional elements that are useful for publishing official information. [govspeak-drupal](https://github.com/LambethCouncil/govspeak-drupal) implements [Govspeak](https://github.com/alphagov/govspeak) for [Drupal](http://drupal.org/). The implementation of Markdown is [John Gruber's php Markdown](http://michelf.ca/projects/php-markdown/).
 
 # Installation 
 
@@ -9,6 +9,91 @@ At Lambeth, we have put it in sites/all/modules/custom, so in our case, govspeak
 - Enable the module in the admin section of your Drupal install.
 
 **Note:** _The module comes with very basic css styles for demonstration purposes. You will almost certainly want to overwrite them._
+
+# Usage
+
+- In your Drupal front-end, go to admin/config/content/formats/add
+- Add a text format (you can name it Govspeak or whatever you like)
+- Under Enabled filters, check 'Govspeak'
+
+- Add a new piece of content (for example an article: node/add/article)
+
+- Enter the following text:
+
+```
+@test advisory@
+
+^test informational [test](http://bbc.co.uk)^
+
+^test informational <a href="http://bbc.co.uk">test</a>^
+
+^this is a warning box^
+
+%this is helpful%
+
+$E
+**Example:** this is an example
+$E
+
+{::highlight-answer}
+The VAT rate is *20%*
+{:/highlight-answer}
+
+fds
+
+$C
+**Student Finance England**
+**Telephone:** 0845 300 50 90
+**Minicom:** 0845 604 44 34
+$C
+
+$A
+Hercules House
+Hercules Road
+London SE1 7DU
+$A
+
+$D
+[An example form download link](http://example.com/ "Example form")
+
+Something about this form download
+$D
+
+s1. numbers
+s2. to the start
+s3. of your list
+
+
+s1. second list 1
+s2. second list 2
+s3. second list 3
+
+x[this is an external link](http://bbc.co.uk)x
+
+$CTA
+A call to action
+$CTA
+
+$P
+A palce
+$P
+
+$I
+An information
+$I
+
+$AI
+Aditional information
+$AI
+
+Special rules apply if you're exporting a vehicle outside the EU.
+
+*[EU]:European Union
+```
+
+- For Text format, choose Govspeak.
+
+- Click Save.
 
 # How to write Govspeak
 
